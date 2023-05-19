@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 24px;
+    background-color: rgb(255, 255, 255);
+}
+
+.cabecalho-imagem {
+    width: 240px;
+    height: auto;
+}
+
+.cabecalho-titulo{
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px black solid;
+    padding: 5px;
+}
+.cabecalho-titulo2{
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.banner1 {
+    width: 1519px;
+    height: auto;
+}
+.banner-texto1 {
+    position: absolute;
+    width: 661px;
+    height: 120px;
+    left: 96px;
+    top: 300px;
+
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.banner-texto2 {
+    position: absolute;
+    width: 672px;
+    height: 76px;
+    left: 96px;
+    top: 440px;
+
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.banner-texto {
+    position: absolute;
+width: 949px;
+height: 876px;
+left: 0px;
+top: 174px;
+
+background: linear-gradient(141.44deg, rgba(0, 0, 0, 0.63) 65.55%, rgba(0, 0, 0, 0.2583) 99.03%);
+}
+
+.botao1 {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 75px;
+    top: 20px;
+
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    display: flex;  
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+.botao2 {
+    position: absolute;
+    width: 220px;
+    height: 52px;
+    left: 65px;
+    top: 5px;
+
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.fundo-botao1 {
+    position: absolute;
+    width: 457px;
+    height: 100px;
+    left: 240px;
+    top: 758px;
+
+    background: rgba(255, 255, 255, 0.53);
+    border-radius: 8px;
+}
+.fundo-botao2 {
+    position: absolute;
+    width: 352px;
+    height: 69px;
+    left: 1126px;
+    top: 955px;
+
+    background: rgba(0, 0, 0, 0.53);
+    border-radius: 8px;
+}
+
+.evento-imagem {
+    position: absolute;
+    width: 711px;
+    height: 328px;
+    left: 430px;
+    top: 1110px;
+    background: url(image.png);
+    transform: rotate(-3.07deg);
+    z-index: 7;
+}
+.fundo-evento {
+    position: absolute;
+    width: 1519px;
+    height: 893px;
+    left: 0px;
+    top: 1228px;
+
+    background: #E4E1E1;
+    border-radius: 60px;
+}
+.fundo-texto1{
+    position: absolute;
+    width: 933px;
+    height: 229px;
+    left: 46px;
+    top: 1337px;
+
+    background: #991414;
+    border-radius: 42px;
+}
+.evento-texto1 {
+    position: absolute;
+    width: 928px;
+    height: 189px;
+    left: 10px;
+    top: 10px;
+
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.fundo-texto2 {
+    position: absolute;
+    width: 869px;
+    height: 227px;
+    left: 590px;
+    top: 1630px;
+
+    background: #991414;
+    border-radius: 54px;
+}
+.evento-texto2 {
+    position: absolute;
+    width: 835px;
+    height: 189px;
+    left: 10px;
+    top: 10px;
+
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.evento-texto3 {
+    position: absolute;
+    width: 799px;
+    height: 77px;
+    left: 360px;
+    top: 1925px;
+
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+.fundo-texto4 {
+    position: absolute;
+    width: 655px;
+    height: 188px;
+    left: 440px;
+    top: 2042px;
+
+    background: #000000;
+    border: 5px solid #D51818;
+    border-radius: 10px;
+}
+.evento-texto4 {
+    position: absolute;
+    width: 568px;
+    height: 108px;
+    left: 120px;
+    top: 30px;
+
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.imagem-1 {
+    position: absolute;
+    width: 1105px;
+    height: 442px;
+    left: 210px;
+    top: 2270px;
+
+    background: url(image.png);
+    border-radius: 63px;
+}
+.imagem-2 {
+    position: absolute;
+    width: 555px;
+    height: 398px;
+    left: 130px;
+    top: 2768px;
+
+    background: url(image.png);
+    border-radius: 62px;
+}
+.imagem-3 {
+    position: absolute;
+    width: 593px;
+    height: 398px;
+    left: 815px;
+    top: 2768px;
+
+    background: url(image.png);
+    border-radius: 39px;
+}
+
+.kenjutsu-imagem {
+    position: absolute;
+    width: 1322px;
+    height: 477px;
+    left: 90px;
+    top: 3375px;
+
+    background: url(image.png);
+    z-index: 7;
+}
+.kenjutsu-fundo {
+    position: absolute;
+    width: 1322px;
+    height: 653px;
+    left: 90px;
+    top: 3726px;
+
+    background: #6B6B6B;
+    border-radius: 82px;
+}
+.kenjutsu-texto{
+    position: absolute;
+    width: 445px;
+    height: 98px;
+    left: 50px;
+    top: 140px;
+
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.kenjutsu-texto2 {
+    position: absolute;
+    width: 1040px;
+    height: 347px;
+    left: 150px;
+    top: 270px;
+
+    font-family: 'Aref Ruqaa Ink';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #FFFFFF;
+}
